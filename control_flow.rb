@@ -74,3 +74,9 @@ else
     puts "go to your bunny and make sure they feel ok"
 end
 
+#new unless statment
+
+unless "rabbit is happy"
+    puts "go talk to your bunnaye hunnaye!"
+end
+
