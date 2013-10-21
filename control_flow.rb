@@ -76,7 +76,8 @@ end
 
 #new unless statment
 
-unless "rabbit is happy"
+happy_bun = false
+
+unless happy_bun
     puts "go talk to your bunnaye hunnaye!"
 end
-
