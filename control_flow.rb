@@ -52,3 +52,25 @@ else
   puts "You picked zero!"
 end
 
+#unless to test if something is false
+
+hungry = false
+
+unless hungry
+  puts "I'm writing Ruby programs!"
+else
+  puts "Time to eat!"
+end
+
+#new if elsif else statment
+
+rabbit = "happy"
+
+if rabbit == "happy" || "excited"
+    puts "that's a happy little bunny"
+elsif rabbit == "sad" || "depressed"
+    puts "cheer up little bunny"
+else 
+    puts "go to your bunny and make sure they feel ok"
+end
+
