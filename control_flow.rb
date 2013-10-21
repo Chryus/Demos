@@ -23,3 +23,32 @@ when 2
 else 
 	puts "I don't know the value of a"
 end
+
+
+print "Integer please: "
+user_num = Integer(gets.chomp)
+
+if user_num < 0
+  puts "You picked a negative integer!"
+elsif user_num > 0
+  puts "You picked a positive integer!"
+else
+  puts "You picked zero!"
+end
+
+
+#use case instead:
+
+print "Integer please: "
+user_num = Integer(gets.chomp)
+
+case user_num
+
+when < 0
+  puts "You picked a negative integer!"
+when > 0
+  puts "You picked a positive integer!"
+else
+  puts "You picked zero!"
+end
+
