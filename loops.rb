@@ -1,3 +1,5 @@
+#while loop
+
 i = 0
 string = "hello world"
 
@@ -9,3 +11,4 @@ end
 
 puts "The final value of i is #{i}"
 puts "The final value of string is #{string}"
+
